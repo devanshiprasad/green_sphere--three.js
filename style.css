@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .c{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        z-index:-1;
+    }
+    nav {
+		color: white;
+		z-index:2;
+		position: relative;
+		padding: 4rem 8rem;
+		display: flex;
+		justify-content: space-between;
+		font-weight: bold;
+	}
+	nav ul{
+		list-style: none;
+		display: flex;
+		gap: 4rem;
+		font-size: smaller;
+		font-weight: lighter;
+
+	}
+	h1{
+		color: white;
+		z-index:2;
+		position: absolute;
+		font-size: 1rem;
+		left: 50%;
+		top:25%;
+		transform: translate(-50%,-25%);
+	}
